@@ -305,6 +305,11 @@ span.badge.badge-published {
     margin-right: 0.5rem;
 }
 
+[dir="rtl"] .sidebar-menu h6::before {
+    margin-right: auto;
+    margin-left: 0.5rem;
+}
+
 .sidebar-menu .bx {
     margin-right: 0.5rem;
     vertical-align: middle;
