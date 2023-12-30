@@ -7,7 +7,7 @@ Preston is a dashboard admin panel that was created with laravel 10, that contai
 - Chat App
 - Calendar
 
-![alt text](https://github.com/ahmedelsewailky/preston/blob/master/public/dashboard/images/screenshot.png?raw=true)
+![alt text](https://github.com/ahmedelsewailky/preston/blob/master/public/dashboard/images/screenshot_.png?raw=true)
 
 ## Features
 - Updating Auth Profile.
