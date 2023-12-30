@@ -151,7 +151,6 @@ span.badge.badge-published {
 
 .card {
     border: none;
-    /* box-shadow: 0 2px 6px 0 rgba(67, 89, 113, .12); */
     border-radius: 2px;
     border: 1px solid #e2e8f0;
 }
@@ -722,6 +721,13 @@ h6.page-title {
     margin-bottom: 0.25rem;
 }
 
+[dir="rtl"] .breadcrumb-item + .breadcrumb-item::before {
+    border-color: transparent #94a3b8 transparent transparent;
+}
+
+.dark .breadcrumb-item.active {
+    color: #607d8b;
+}
 /* ============================================================================= Table */
 .table {
     color: #4f5d70;
@@ -861,6 +867,9 @@ h6.page-title {
     border-color: #334155;
 }
 
+.dark .btn-dark {
+    background-color: #607D8B;
+}
 /* ============================================================================= Messenger App */
 .app-chat {
     position: relative;
@@ -1348,10 +1357,8 @@ span.activate-status.online {
     }
 }
 
-.dark .btn-dark {
-    background-color: #607D8B;
-}
 
+/* ============================================================================= Dark Summer note */
 .dark .btn-check:checked + .btn,
 .dark :not(.btn-check) + .btn:active,
 .dark .btn:first-child:active,
@@ -1406,12 +1413,4 @@ span.activate-status.online {
 
 .dark .select2-container--default.select2-container--focus .select2-selection--multiple {
 border: solid #333e51 1px;
-}
-
-[dir="rtl"] .breadcrumb-item + .breadcrumb-item::before {
-    border-color: transparent #94a3b8 transparent transparent;
-}
-
-.dark .breadcrumb-item.active {
-    color: #607d8b;
 }
