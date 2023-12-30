@@ -35,6 +35,16 @@ php artisan serv
 
 > Note: For using single page app just add `wire:navigate` for all links
 
+## Features
+- Updating Auth Profile.
+- Users Cruds with Default Image Avatar.
+- Categories Cruds with Bootstrap Modal.
+- Tags Cruds with Bootstrap Modal.
+- Posts Cruds with Sommernote and Select2.
+- Cruds for Roles and Premissions.
+- Messenger Chatapp with Mark Readable Message and Online Users.
+- Calendar for Appointments.
+
 ## Packages
 
 | Package Name | Verison |
